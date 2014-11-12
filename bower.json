@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "https://github.com/guoyinfeng"
+  },
+  "name": "ngnotification",
+  "version": "0.0.1",
+  "main": "notification.js",
+  "ignore": [
+    "/.idea",
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7"
+  }
+}
