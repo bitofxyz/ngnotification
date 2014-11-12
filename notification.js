@@ -5,6 +5,7 @@
 angular.module('notifications', []).
     factory('$notification', ['$timeout', function ($timeout) {
         'use strict';
+
         console.log('notification service online');
         var notifications = JSON.parse(localStorage.getItem('$notifications')) || [],
             queue = [];
