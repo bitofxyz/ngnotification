@@ -197,7 +197,7 @@ angular.module('notifications', []).factory('$notification', ['$timeout', functi
         //    '</div>' +
         //    '</div>';
 
-
+        //new style
         var html =
             '<div ng-class="noti.type" ng-repeat="noti in queue" class="dr-notification-wrapper bigBox animated fadeIn fast" style="z-index: 9998;">' +
             '<div class="animated fadeIn"><i ng-click="removeNotification(noti)" class="botClose fa fa-times" id="botClose3"></i><span>{{noti.title}}</span>' +
