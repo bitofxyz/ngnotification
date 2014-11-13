@@ -3,10 +3,14 @@
     "name": "https://github.com/guoyinfeng"
   },
   "name": "ngnotification",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "notification.js",
   "ignore": [
     "/.idea",
+    "demo.html",
+    "demo.css",
+    "demo.js",
+    "doc",
     "**/.*",
     "node_modules",
     "components"

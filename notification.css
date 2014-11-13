@@ -42,7 +42,8 @@
 }
 
 .bigBox p {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 16px;
     margin-top: 10px
 }
 
