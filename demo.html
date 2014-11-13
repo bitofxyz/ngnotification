@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="notification.css">
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+<!--<div id="bigBox3" class="bigBox animated fadeIn fast" style="z-index: 9998; background-color: rgb(50, 118, 177);">-->
+    <!--<div id="bigBoxColor3" class="animated fadeIn"><i class="botClose fa fa-times" id="botClose3"></i><span>Big Information box</span>-->
+
+        <!--<p>Lorem ipsum dolor sit amet, test consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+            <!--dolore magna aliqua. Ut enim ad minim veniam</p>-->
+
+        <!--<div class="bigboxicon"><i class="fa fa-bell swing animated"></i></div>-->
+        <!--<div class="bigboxnumber">2</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div id="bigBox14" class="bigBox animated fadeIn fast" style="background-color: rgb(196, 106, 105);">-->
+    <!--<div id="bigBoxColor14"><i class="botClose fa fa-times" id="botClose14"></i><span>Big Information box</span>-->
+
+        <!--<p>This message will dissapear in 6 seconds!</p>-->
+
+        <!--<div class="bigboxicon"><i class="fa fa-warning shake animated"></i></div>-->
+        <!--<div class="bigboxnumber">1</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div id="bigBox15" class="bigBox animated fadeIn fast" style="background-color: rgb(199, 145, 33);">-->
+    <!--<div id="bigBoxColor15"><i class="botClose fa fa-times" id="botClose15"></i><span>Shield is up and running!</span>-->
+
+        <!--<p>Lorem ipsum dolor sit amet, test consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+            <!--dolore magna aliqua. Ut enim ad minim veniam</p>-->
+
+        <!--<div class="bigboxicon"><i class="fa fa-shield fadeInLeft animated"></i></div>-->
+        <!--<div class="bigboxnumber">3</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div id="bigBox16" class="bigBox animated fadeIn fast" style="background-color: rgb(115, 158, 115);">-->
+    <!--<div id="bigBoxColor16"><i class="botClose fa fa-times" id="botClose16"></i><span>Success Message Example</span>-->
+
+        <!--<p>Lorem ipsum dolor sit amet, test consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+            <!--dolore magna aliqua. Ut enim ad minim veniam</p>-->
+
+        <!--<div class="bigboxicon"><i class="fa fa-check"></i></div>-->
+        <!--<div class="bigboxnumber">4</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
+<div notifications="bottom right"></div>
+
+<div class="container" style="margin-top:50px;" ng-controller="MainCtrl">
+    <h2>Demo</h2>
+    <form>
+        <label for="">Notification Title:</label>
+        <input type="text" ng-model="notiTitle">
+        <label for="">Notification Content</label>
+        <input type="text" ng-model="notiText">
+        <br>
+        <label for="">Create a Notification</label>
+        <div class="btn-group">
+            <button class="btn" ng-click="makeInfo()">Info</button>
+            <button class="btn" ng-click="makeWarning()">Warning</button>
+            <button class="btn" ng-click="makeError()">Error</button>
+            <button class="btn" ng-click="makeSuccess()">Success</button>
+        </div>
+        <br>
+        <br>
+        <button class="btn" ng-click="gimmeHTML5()">Enable HTML5 Notifications</button>
+    </form>
+
+    <hr>
+
+    <h2>Docs</h2>
+    <p>Coming soon. For now reference the <a href="https://github.com/DerekRies/Angular-Notifications">README</a></p>
+</div>
+<script src="bower_components/angular/angular.js"></script>
+<script src="notification.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>

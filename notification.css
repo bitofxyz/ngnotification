@@ -1,3 +1,97 @@
+.bigBox {
+    /*position: fixed;*/
+    /*right: 10px;*/
+    /*bottom: 10px;*/
+    background-color: #004d60;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 390px;
+    height: 150px;
+    color: #fff;
+    z-index: 99999;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-left: 5px solid rgba(0, 0, 0, .15);
+    overflow: hidden
+}
+
+.type_success {
+    background-color: rgb(115, 158, 115) !important;
+}
+.type_warning {
+    background-color: rgb(199, 145, 33) !important;
+}
+.type_error {
+    background-color: rgb(196, 106, 105) !important;
+}
+.type_info {
+    background-color: rgb(50, 118, 177) !important;
+}
+
+.bigBox span {
+    /*font-size: 17px;*/
+    font-size: 30px;
+    font-weight: 600;
+    /*font-weight: 300;*/
+    letter-spacing: -1px;
+    padding: 5px 0 !important;
+    display: block
+}
+
+.bigBox p {
+    font-size: 13px;
+    margin-top: 10px
+}
+
+.bigBox .bigboxicon {
+    font-size: 30px;
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 6px;
+    z-index: 0
+}
+
+.bigBox .bigboxnumber {
+    width: 100%;
+    text-align: right;
+    font-size: 25px
+}
+
+.bigBox {
+    /*position: fixed;*/
+    /*right: 10px;*/
+    /*bottom: 10px;*/
+    background-color: #004d60;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    /*width: 88%;*/
+    height: 150px;
+    color: #fff;
+    z-index: 99999
+}
+
+.botClose {
+    position: absolute;
+    right: 10px;
+    height: 16px;
+    width: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    opacity: .5;
+    display: block;
+    top: 15px
+}
+
+.botClose:hover {
+    opacity: 1
+}
+
 .dr-notification-container {
     position: absolute;
     z-index: 10000;
